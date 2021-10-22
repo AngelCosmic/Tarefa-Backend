@@ -24,5 +24,4 @@
       "dev": "nodemon src/index.ts",
       "start": "cd dist && node src/index.js"
    }
-
 }

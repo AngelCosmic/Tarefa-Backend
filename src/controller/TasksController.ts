@@ -1,7 +1,7 @@
 import { getRepository } from "typeorm";
 import { Tasks } from "../entity/tasks";
 import { Request, Response } from "express";
-import { request } from "http";
+
 
 
 export const getTasks = async(request: Request, response: Response) => {

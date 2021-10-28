@@ -1,7 +1,7 @@
 import { Router, request, response, Request, Response} from 'express'
 
  
-import { getTasks, saveTask, getTask, updateTask, deleteTask, finishedTask } from './controller/tasksController'
+import { getTasks, saveTask, getTask, updateTask, deleteTask, finishedTask } from './controller/TasksController'
 
 const routes = Router()
  
